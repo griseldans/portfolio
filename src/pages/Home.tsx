@@ -21,7 +21,7 @@ const Home = () => {
           Hello!
         </h1>
       </div>
-      <div className='introduction-body'>
+      <div className='introduction-body' style={{marginTop: '30px'}}>
         <h3>
           <span>
             I'm Griselda Neysa Sadiya and my expertise lies in the development of complex systems.
@@ -38,7 +38,7 @@ const Home = () => {
         </span>
         </h4>
       </div>
-      <div className="introduction-body-2">
+      <div className="introduction-body-2" style={{marginTop: '15px', marginBottom: '30px'}}>
         <h3>
           <span>
             Visit my prior works here:

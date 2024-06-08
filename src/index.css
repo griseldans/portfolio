@@ -1,3 +1,7 @@
+html, body, #root {
+  height: 100%;
+}
+
 @font-face {
   font-family: 'PlusJakartaSans';
   src: url('/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
@@ -96,10 +100,11 @@ button:focus-visible {
 }
 
 footer {
-  position:absolute;
+  /* position:fixed;
   left:0;
   bottom:0;
-  right:0;
+  right:0; */
+  margin-top: auto;
 }
 
 .container {

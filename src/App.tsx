@@ -1,6 +1,6 @@
 import './index.css'
 import './App.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Layout from './pages/Layout';
 import Home from './pages/Home';
 import WebDev from './pages/WebDev';
@@ -13,6 +13,7 @@ function App () {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
+        Switch
           <Route index element={<Home />} />
           <Route path='web-dev' element={<WebDev />} />
           <Route path='system-analyst' element={<SystemAnalyst />} />

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 interface Props {
     item: string;
     link: string;
-  }
+}
 
 export const HomeCard = ({item, link}: Props) => {
 
