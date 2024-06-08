@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-import TriggerLogo from './TriggerLogo';
 import { Card } from 'react-bootstrap';
 
 interface Props {
