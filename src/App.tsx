@@ -10,7 +10,7 @@ import UIUX from './pages/UIUX';
 
 function App () {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='https://griseldans.github.io/portfolio'>
       <Routes>
         <Route path="/" element={<Layout />}>
         Switch
