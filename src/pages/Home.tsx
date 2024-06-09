@@ -11,8 +11,8 @@ const Home = () => {
   const specialtiesPage = [
     'web-dev',
     'system-analyst',
+    'ui-ux',
     'it-infra',
-    'ui-ux'
   ]
   return (
     <div className='introduction-container'>
