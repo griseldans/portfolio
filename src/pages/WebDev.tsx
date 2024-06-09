@@ -4,7 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 const WebDev = () => {
   const projects = [
     {
-      img_src: './project-page/invoicesync-page.jpg',
+      img_src: './project-page/portfolio.jpg',
       name: 'Portfolio',
       category: 'personal project',
       description: 'Website to showcase my prior and current project/works',
@@ -20,7 +20,7 @@ const WebDev = () => {
       ]
     },
     {
-      img_src: './project-page/invoicesync-page.jpg',
+      img_src: './project-page/invoicesync.jpg',
       name: 'InvoiceSync',
       category: 'course team project',
       description: 'Web-based invoice management system for PT Krida Indotama Teknologi',
@@ -40,7 +40,7 @@ const WebDev = () => {
       ]
     },
     {
-      img_src: './project-page/jejakarbon-main-page.jpg',
+      img_src: './project-page/apapedia.jpg',
       name: 'APAPEDIA',
       category: 'course team project',
       description: 'E-commerce system build using microservices architecture',
@@ -56,7 +56,7 @@ const WebDev = () => {
       ]
     },
     {
-      img_src: './project-page/jejakarbon-main-page.jpg',
+      img_src: './project-page/jejakarbon.jpg',
       name: 'Jejakarbon',
       category: 'course team project',
       description: 'Track carbon foot print and provide a platform to donate to Go Green movements',

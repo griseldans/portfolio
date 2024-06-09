@@ -11,26 +11,34 @@ const Footer = () => {
                   <h6 className='text-uppercase fw-bold mb-4'>
                     Built using
                   </h6>
-                  <p>
-                    ReactJS
-                  </p>
+                  <div className="contact">
+                    <a href='https://id.linkedin.com/in/griselda-neysa-sadiya-6629a2238' target="_blank" rel="noopener noreferrer" className="card-logo-link">
+                      <img src='./logo/react.png' alt="GitHub Logo" className="card-logo"/>
+                    </a>
+                    <span style={{marginInlineStart: '5px'}}>ReactJS</span>
+                  </div>
                 </MDBCol>
     
                 <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
                   <h6 className='text-uppercase fw-bold mb-4'>Connect with me!</h6>
-                  <a href='' className='me-4 text-reset'>
-                    <MDBIcon fab icon="linkedin" />
-                  </a>
-                  <p>
-                    <MDBIcon icon="envelope" className="me-3" />
-                    info@example.com
-                  </p>
-                  <p>
-                    <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
-                  </p>
-                  <p>
-                    <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-                  </p>
+                  <div className="contact">
+                    <a href='https://id.linkedin.com/in/griselda-neysa-sadiya-6629a2238' target="_blank" rel="noopener noreferrer" className="card-logo-link">
+                      <img src='./logo/linkedin.svg' alt="GitHub Logo" className="card-logo"/>
+                    </a>
+                    <span style={{marginInlineStart: '10px'}}>Griselda Neysa Sadiya</span>
+                  </div>
+                  <div className="contact">
+                    <a href='https://www.instagram.com/griseldans/' target="_blank" rel="noopener noreferrer" className="card-logo-link">
+                      <img src='./logo/instagram.svg' alt="GitHub Logo" className="card-logo"/>
+                    </a>
+                    <span style={{marginInlineStart: '10px'}}>griseldans</span>
+                  </div>   
+                  <div className="contact">
+                    <a href='https://github.com/griseldans' target="_blank" rel="noopener noreferrer" className="card-logo-link">
+                      <img src='./logo/github.svg' alt="GitHub Logo" className="card-logo"/>
+                    </a>
+                    <span style={{marginInlineStart: '10px'}}>griseldans</span>
+                  </div>               
                 </MDBCol>
               </MDBRow>
             </MDBContainer>

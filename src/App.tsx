@@ -13,7 +13,6 @@ function App () {
     <BrowserRouter basename='/portfolio/'>
       <Routes>
         <Route path="/" element={<Layout />}>
-        Switch
           <Route index element={<Home />} />
           <Route path='web-dev' element={<WebDev />} />
           <Route path='system-analyst' element={<SystemAnalyst />} />

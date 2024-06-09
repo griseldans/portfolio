@@ -106,3 +106,16 @@
 .showcase-container {
   border: 2px solid #2c3e50;
 }
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* .card-logo {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+} */

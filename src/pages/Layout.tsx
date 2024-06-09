@@ -7,21 +7,21 @@ function Layout(){
 
     return (
         <>
-        <Nav variant="underline" activeKey={location.pathname} className="justify-content-center">
+        <Nav variant="underline" activeKey={'/portfolio' + location.pathname} className="justify-content-center">
             <Nav.Item>
-                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/portfolio/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/web-dev">Wed Development</Nav.Link>
+                <Nav.Link href="/portfolio/web-dev">Wed Development</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/system-analyst">System Analyst</Nav.Link>
+                <Nav.Link href="/portfolio/system-analyst">System Analyst</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/ui-ux">UI/UX</Nav.Link>
+                <Nav.Link href="/portfolio/ui-ux">UI/UX</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/it-infra">IT Infrastructure</Nav.Link>
+                <Nav.Link href="/portfolio/it-infra">IT Infrastructure</Nav.Link>
             </Nav.Item>
         </Nav>
             {/* <Nav variant="underline"  className="justify-content-center" defaultActiveKey="/home">
