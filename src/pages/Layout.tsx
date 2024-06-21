@@ -34,11 +34,9 @@ function Layout(){
                     </Nav.Link>
                 </Nav.Item>
             </Nav>
-            <main>
-                <div className="container">
-                    <Outlet />
-                </div>
-            </main>
+            <div className="container">
+                <Outlet />
+            </div>
             <Footer />
         </>
     );

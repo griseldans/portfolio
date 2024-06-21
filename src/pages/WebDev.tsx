@@ -1,4 +1,4 @@
-import { Stack } from 'react-bootstrap';
+import { Col, Container, Row, Stack } from 'react-bootstrap';
 import ProjectCard from '../components/ProjectCard';
 
 const WebDev = () => {
@@ -78,20 +78,22 @@ const WebDev = () => {
     <div className='specialty-container mt-4'>
       <div className='page-title'>        
         <h1>Web Development</h1>
-      </div>
-      <Stack direction="horizontal" gap={3} style={{justifyContent:'center', marginTop: '20px'}}>       
+      </div> 
+      <Row className='gx-5 gy-5 d-flex justify-content-center'>
         {
           projects.map((project) => (
-            <ProjectCard 
-              img_src={project.img_src} 
-              name={project.name} 
-              category={project.category} 
-              description={project.description} 
-              references={project.references} 
-              tools={project.tools} />
+            <Col sm={12} md={6} lg={4} xxl={3} className='d-flex justify-content-center'>
+              <ProjectCard 
+                img_src={project.img_src} 
+                name={project.name} 
+                category={project.category} 
+                description={project.description} 
+                references={project.references} 
+                tools={project.tools} />
+            </Col>
           ))
         }
-      </Stack>
+      </Row>    
     </div>
   )
 }

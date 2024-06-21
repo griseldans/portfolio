@@ -1,4 +1,4 @@
-html, body, #root {
+html, #root {
   height: 100%;
 }
 
@@ -46,8 +46,10 @@ body {
   margin: 0;
   /* display: flex; */
   /* place-items: center; */
+  /* overflow-y: hidden;
+  height: 100%;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh; */
 }
 
 h1 {
@@ -108,5 +110,7 @@ footer {
 }
 
 .container {
+  /* margin: 5%; */
+  padding: 5%;
   text-align: center;
 }
