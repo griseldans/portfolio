@@ -1,4 +1,4 @@
-import { Col, Container, Row, Stack } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import ProjectCard from '../components/ProjectCard';
 
 const WebDev = () => {
